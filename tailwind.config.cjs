@@ -139,8 +139,8 @@ const config = {
     textColor: temporalColors,
     backgroundColor: temporalColors,
     fontFamily: {
-      primary: ['Inter', ...defaultTheme.fontFamily.sans],
-      secondary: ['Poppins', ...defaultTheme.fontFamily.sans],
+      primary: [...defaultTheme.fontFamily.sans],
+      secondary: [...defaultTheme.fontFamily.sans],
     },
     extend: {
       animation: {
