@@ -41,9 +41,7 @@
 
     const uiVersionInfo: UiVersionInfo = {
       current: settings.version,
-      recommended: settings.notifyOnNewVersion
-        ? await fetchLatestUiVersion(fetch)
-        : undefined,
+      recommended: settings.version,
     };
 
     return {
